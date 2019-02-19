@@ -6,8 +6,8 @@
 <body>
 <form name = "entry" method = "POST" action = "cookie_set.php">
 <fieldset>
-<legend> Вводите только буквы и числа </legend>
-Имя: < input type = "text" name = "user">
+<legend> Вводите только буквы (не больше 10 символов) </legend>
+Имя: <input type = "text" name = "user">
 Пароль: <input type = "password" name = "pass">
 <br> <input type = "submit" value = "Авторизоваться"> </br>
 </fieldset>
