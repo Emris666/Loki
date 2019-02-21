@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset = "utf-8">
+  <meta charset = "utf-8">
+<style> 
+h1 {
+color:blue;
+}
+</style>
 </head>
 <body>
+<h1>
+   Локи
+</h1>
 <form name = "entry" method = "POST" action = "cookie_set.php">
 <fieldset>
-<legend> Вводите только буквы (не больше 10 символов) </legend>
+ <legend> Вводите только буквы (не больше 10 символов) </legend>
 Имя: <input type = "text" name = "user">
 Пароль: <input type = "password" name = "pass">
-<br> <input type = "submit" value = "Авторизоваться"> </br>
+ <br> <input type = "submit" value = "Авторизоваться"> </br>
 </fieldset>
 </form>
 <form action = "/input.php/">
