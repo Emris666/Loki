@@ -20,8 +20,8 @@ color:blue;
  <br> <input type = "submit" value = "Авторизоваться"> </br>
 </fieldset>
 </form>
-<form action = "/input.php/">
-<button type = "submit"> Войти </button>
+<form action = "./input.php" method="POST">
+<button type="submit"> Войти </button>
 </form>
 </body>
 </html>
